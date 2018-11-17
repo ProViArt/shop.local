@@ -5,7 +5,7 @@ $url = $_SERVER['REQUEST_URI'];
 
 $routes = [
     "/" => "Index/show",
-    "/news/" => "News/index",
+    "/news" => "News/index",
     "/news/(\d+)" => "News/show"
 ];
 
